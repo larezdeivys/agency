@@ -1,0 +1,74 @@
+@media screen and (min-width: 500px){
+	.links ul{
+		display: flex;
+		justify-content: center;
+	}
+}
+@media screen and (min-width: 700px){
+	.divheader .h1{
+		font-size: 4rem;
+	}
+	.imagesport{
+		margin-top: 3rem;
+
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: .5rem;
+	}
+	.imagen .img{
+		margin-top: 1rem;
+	}	
+	.enlaces .a1{
+		font-size: 3rem;	
+	}
+	.enlaces .a11{
+		color: white;
+		font-size: 1.5rem;
+	}
+	.imgteam{
+		width: 94%;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 2rem;
+	}
+	.colprin{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: .2rem;
+	}
+}
+@media screen and (min-width: 1000px){
+	.colprin{
+		width: 90%;
+		margin: auto;
+	}
+	.divheader{
+		width: 70%;
+	}
+	.divheader .h1{
+		width: 80%;
+		margin: auto;
+		margin-top: 6rem;
+	}
+}
+@media screen and (min-width: 1200px){
+	.colprin{
+		width: 80%;
+		margin: auto;
+	}
+}
+@media screen and (min-width: 1400px){
+	.imgteam{
+		width: 80%;
+	}
+}
+@media screen and (min-width: 1600px){
+	.colprin{
+		width: 70%;
+		margin: auto;
+	}
+	.imgteam{
+		width: 70%;
+	}
+}
+@media screen and (min-width: ){}
